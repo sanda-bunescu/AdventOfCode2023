@@ -36,19 +36,19 @@ func totalWinnings(){
     
 }
 func sortTypes(){
- for index in 0..<types.count{
-     types[index].sort { hand1 , hand2 in
-         for (char1, char2) in zip(hand1, hand2) {
-             if sortingArray.firstIndex(of: String(char1))! > sortingArray.firstIndex(of: String(char2))! {
-                return true
-             }
-             if sortingArray.firstIndex(of: String(char1))! < sortingArray.firstIndex(of: String(char2))! {
-                 return false
-             }
-         }
-         return false
-     }
- }
+    for index in 0..<types.count{
+        types[index].sort { hand1 , hand2 in
+            for (char1, char2) in zip(hand1, hand2) {
+                if sortingArray.firstIndex(of: String(char1))! > sortingArray.firstIndex(of: String(char2))! {
+                    return true
+                }
+                if sortingArray.firstIndex(of: String(char1))! < sortingArray.firstIndex(of: String(char2))! {
+                    return false
+                }
+            }
+            return false
+        }
+    }
 }
 
 
@@ -58,7 +58,6 @@ func check(hand: String){
     for char in hand{
         dict[char , default: 0] += 1
     }
-    print(dict)
     let array = dict.sorted{$0.value > $1.value}
     
     if array[0].value == 5{
