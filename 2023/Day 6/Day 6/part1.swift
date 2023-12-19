@@ -2,7 +2,7 @@
 import Foundation
 
 func marginOfError() {
-    let path = "/Users/sanda/Desktop/AdventOfCode/Day 6/input.txt"
+    let path = "/Users/sanda/Desktop/AdventOfCode2023/2023/Day 6/input.txt"
     let content = try! String(contentsOfFile: path)
 
     let timeArray = (content.split(separator: "\n"))[0].trimmingPrefix("Time:").split(separator: " ").map{ Int($0)!}

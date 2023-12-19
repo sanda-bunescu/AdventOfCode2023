@@ -1,7 +1,7 @@
 import Foundation
 
 func findLenghtPath(){
-    let inputPath = "/Users/sanda/Desktop/AdventOfCode/Day8/input.txt"
+    let inputPath = "/Users/sanda/Desktop/AdventOfCode2023/2023/Day 8/input.txt"
     let content = try! String(contentsOfFile: inputPath)
     let directions = content.split(separator: "\n\n")[0]
     let paths = content.split(separator: "\n\n")[1].split(separator: "\n")

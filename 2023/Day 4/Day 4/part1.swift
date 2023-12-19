@@ -2,7 +2,7 @@ import Foundation
 
 func calculateSumPoints() throws{
     var sum = 0
-    let path = "/Users/sanda/Desktop/AdventOfCode/Day 4/input.txt"
+    let path = "/Users/sanda/Desktop/AdventOfCode2023/2023/Day 4/input.txt"
     let content = try String(contentsOfFile: path)
     let lines = content.split(separator: "\n")
     for line in lines{

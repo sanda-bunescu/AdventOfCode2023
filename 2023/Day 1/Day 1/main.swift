@@ -1,6 +1,6 @@
 import Foundation
 
-let path = "/Users/sanda/Desktop/AdventOfCode/Day 1/input.txt"
+let path = "/Users/sanda/Desktop/AdventOfCode2023/2023/Day 1/input.txt"
 var contents = ""
 contents = try String(contentsOfFile: path)
 let lines = contents.split(separator: "\n")

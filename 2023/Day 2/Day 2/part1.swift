@@ -1,6 +1,6 @@
 import Foundation
 func possibleIDs() throws{
-    let path = "/Users/sanda/Desktop/AdventOfCode/Day 2/input.txt"
+    let path = "/Users/sanda/Desktop/AdventOfCode2023/2023/Day 2/input.txt"
     let content = try String(contentsOfFile: path)
     let lines = content.split(separator: "\n")
     let idRegex = /[1-9][0-9]*/

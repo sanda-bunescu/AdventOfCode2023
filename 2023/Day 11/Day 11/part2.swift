@@ -1,7 +1,7 @@
 import Foundation
 
 func findShortestPaths2(content: [[String]]){
-    var matrix = content
+    let matrix = content
     var rowIndex = [Int]()
     for line in 0..<matrix.count{
         if matrix[line].allSatisfy({$0 == "."}){

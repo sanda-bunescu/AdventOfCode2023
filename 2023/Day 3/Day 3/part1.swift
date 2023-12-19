@@ -9,7 +9,7 @@ import Foundation
 
 func partNumbersSum() throws{
     var sum = 0
-    let path = "/Users/sanda/Desktop/AdventOfCode/Day 3/input.txt"
+    let path = "/Users/sanda/Desktop/AdventOfCode2023/2023/Day 3/input.txt"
     let content = try String(contentsOfFile: path)
     let lines = content.split(separator: "\n")
     var matrix:[[Character]] = []

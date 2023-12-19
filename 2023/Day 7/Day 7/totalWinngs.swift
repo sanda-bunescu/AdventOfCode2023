@@ -10,7 +10,7 @@ import Foundation
 var types = Array(repeating: [String](), count: 7)
 let sortingArray = ["A","K","Q","J","T","9","8","7","6","5","4","3","2"]
 func totalWinnings(){
-    let path = "/Users/sanda/Desktop/AdventOfCode/Day 7/input.txt"
+    let path = "/Users/sanda/Desktop/AdventOfCode2023/2023/Day 7/input.txt"
     let content = try! String(contentsOfFile: path)
     let contentArray = content.split(separator: "\n")
     var dictionary = [String : Int]()

@@ -1,6 +1,6 @@
 import Foundation
 
-let inputPath = "/Users/sanda/Desktop/AdventOfCode/Day 9/input.txt"
+let inputPath = "/Users/sanda/Desktop/AdventOfCode2023/2023/Day 9/input.txt"
 let content = try! String(contentsOfFile: inputPath)
 
 func convert(content: String) -> [[Int]]{
