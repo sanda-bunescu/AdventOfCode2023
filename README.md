@@ -9,6 +9,7 @@ This repository contains my solutions for the Advent of Code 2023 challenges, wr
 You can clone this repository and run the solutions in your own environment. Each day's solution is contained in its own file, named with the format `Day X.extension`.
 
 To run the solution: 
+
     1. Clone the repository
     2. In 2023 folder navigate to the day's folder.
     3. Run the Swift code
